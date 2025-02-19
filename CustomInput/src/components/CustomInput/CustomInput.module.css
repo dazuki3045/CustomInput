@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-Content: center;
+    align-Items: center;
+    height: 100vh;
+}
+.inputWrapper {
+    display: flex;
+    flex-Direction: column;
+    align-Items: center;
+    background-Color: #669dda;
+    padding: 20px;
+    border-Radius: 8px;
+}
+.input {
+    padding: 10px;
+    font-Size: 16px;
+    margin-Bottom: 10px;
+    width: 200px;
+    border-Radius: 4px;
+    border: 1px solid #daa519;
+}
+.button {
+    padding: 10px 20px;
+    font-Size: 14px;
+    margin-Bottom: 10px;
+    cursor: pointer;
+    border-Radius: 4px;
+    background-Color: #4CAF50;
+    color: white;
+    border: 1px solid #000000;
+}
+.text {
+    font-Size: 18px;
+    color: #b63939;
+}
