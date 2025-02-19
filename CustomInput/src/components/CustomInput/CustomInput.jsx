@@ -1,7 +1,10 @@
 import React, { useState, useRef } from 'react';
 import styles from "./CustomInput.module.css"
 
-const CustomInput = () => {
+export const CustomInput = () => {
+    const Text = ({ value }) => {
+        return <div className={styles.text}>{value}</div>;
+    };
     const [inputValue, setInputValue] = useState("");
     const inputRef = useRef(null);
     const handleFocus = () => {
@@ -26,10 +29,8 @@ const CustomInput = () => {
                 <button onClick={handleFocus} className={styles.button}>
                     Установить фокус
                 </button>
-                <div className={styles.text}>{inputValue}</div>
+                <Text value={inputValue} />
             </div>
         </div>
     );
 };
-
-export default CustomInput;

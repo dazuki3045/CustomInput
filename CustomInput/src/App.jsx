@@ -1,4 +1,5 @@
-import CustomInput from "./components/CustomInput/CustomInput.jsx";
+import { CustomInput } from "./components/CustomInput/CustomInput.jsx";
+import React from "react";
 
 
 function App() {
